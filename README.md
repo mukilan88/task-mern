@@ -20,14 +20,15 @@ to start backend
 
 ## `Frontend`
 
-"react-router-dom": npm install react-router-dom --save
-"axios": npm install axios
-"firebase": npm install firebase
-"react-firebase-hooks": npm install react-firebase-hooks
+"react-router-dom": `npm install react-router-dom --save`\
+"axios": `npm install axios`\
+"firebase": `npm install firebase`\
+"react-firebase-hooks": `npm install react-firebase-hooks`
 
 ## `Backend`
 
-"cors":"dotenv":"express": "mongoose": "razorpay" : npm i cors dotenv mongoose express razorpay
+"cors":"dotenv":"express": "mongoose": "razorpay" \
+`npm i cors dotenv mongoose express razorpay`
 
 ### `npm test`
 
@@ -84,7 +85,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### `note if needed`
+# note if needed
 
 Note: You need administrative privileges to change the execution policy. If you're using Windows, make sure you're running PowerShell as an administrator.
 
@@ -99,7 +100,7 @@ In the PowerShell window, type the following command and press Enter:
 mathematica
 Copy code
 
-# Get-ExecutionPolicy
+### `Get-ExecutionPolicy`
 
 Change the Execution Policy:
 
@@ -108,7 +109,7 @@ To change the execution policy, run the following command:
 javascript
 Copy code
 
-# Set-ExecutionPolicy RemoteSigned
+### `Set-ExecutionPolicy RemoteSigned`
 
 Confirm the Change:
 
@@ -120,6 +121,6 @@ Remember that changing the execution policy makes your system slightly less secu
 mathematica
 Copy code
 
-# Set-ExecutionPolicy Restricted
+### `Set-ExecutionPolicy Restricted`
 
 This will help maintain the security of your system.
