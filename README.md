@@ -22,6 +22,8 @@ to start backend
 
 "react-router-dom": npm install react-router-dom --save
 "axios": npm install axios
+"firebase": npm install firebase
+"react-firebase-hooks": npm install react-firebase-hooks
 
 ## `Backend`
 
