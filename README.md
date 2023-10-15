@@ -2,17 +2,30 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
+
+to start the frontend
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `nodemon index`
+
+to start backend
+
+### `package need to be installed`
+
+## `Frontend`
+
+"react-router-dom": npm install react-router-dom --save
+"axios": npm install axios
+
+## `Backend`
+
+"cors":"dotenv":"express": "mongoose": "razorpay" : npm i cors dotenv mongoose express razorpay
 
 ### `npm test`
 
