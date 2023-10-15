@@ -83,3 +83,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `note if needed`
+
+Note: You need administrative privileges to change the execution policy. If you're using Windows, make sure you're running PowerShell as an administrator.
+
+Open PowerShell as Administrator:
+
+Press the Windows key.
+Type "PowerShell."
+Right-click on "Windows PowerShell" or "PowerShell" and select "Run as administrator."
+Check the Current Execution Policy:
+
+In the PowerShell window, type the following command and press Enter:
+mathematica
+Copy code
+
+# Get-ExecutionPolicy
+
+Change the Execution Policy:
+
+To allow the execution of local scripts, you can set the execution policy to "RemoteSigned." This policy allows local scripts to run without being digitally signed.
+To change the execution policy, run the following command:
+javascript
+Copy code
+
+# Set-ExecutionPolicy RemoteSigned
+
+Confirm the Change:
+
+When prompted to confirm, type "Y" for yes.
+After changing the execution policy to "RemoteSigned," you should be able to run nodemon and other scripts in PowerShell without encountering the security error.
+
+Remember that changing the execution policy makes your system slightly less secure, so it's essential to be cautious about running scripts from untrusted sources. Once you've finished running your scripts, you can set the execution policy back to its original state by running:
+
+mathematica
+Copy code
+
+# Set-ExecutionPolicy Restricted
+
+This will help maintain the security of your system.
